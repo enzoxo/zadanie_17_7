@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Google login
+  body   
+      p
+        | Cześć, jest to aplikacja do logowania się przy pomocy googla!
+        | Wpisz prosze swoje dane!
+      p
+        | First Name: 
+        input(type='text', name='first_name')
+      p
+        | Last Name: 
+        input(type='text', name='last_name')
+      a(href='/auth/google')
+        input(type='submit', value='Submit')
